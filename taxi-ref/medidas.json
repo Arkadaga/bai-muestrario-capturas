@@ -1,0 +1,324 @@
+{
+ "secs": [
+  {
+   "tag": "HEADER",
+   "y": 0,
+   "h": 65,
+   "bg": "rgb(255, 255, 255)",
+   "t": "Taxi Bilbao Aeropuerto"
+  },
+  {
+   "tag": "SECTION",
+   "y": 0,
+   "h": 0,
+   "bg": "rgba(0, 0, 0, 0)",
+   "t": "                         Precio Fijo · Paradas Ilimitadas             "
+  },
+  {
+   "tag": "SECTION",
+   "y": 65,
+   "h": 850,
+   "bg": "rgb(24, 24, 27)",
+   "t": "Taxi Aeropuerto Bilbao"
+  },
+  {
+   "tag": "SECTION",
+   "y": 915,
+   "h": 323,
+   "bg": "rgb(255, 255, 255)",
+   "t": "Cancelación Gratuita"
+  },
+  {
+   "tag": "SECTION",
+   "y": 1238,
+   "h": 1426,
+   "bg": "rgb(255, 255, 255)",
+   "t": "Un taxi para cada necesidad"
+  },
+  {
+   "tag": "SECTION",
+   "y": 2664,
+   "h": 684,
+   "bg": "rgb(255, 255, 255)",
+   "t": "Reserva tu taxi en 3 pasos"
+  },
+  {
+   "tag": "SECTION",
+   "y": 3349,
+   "h": 736,
+   "bg": "rgb(249, 250, 251)",
+   "t": "Controla tus reservas desde cualquier lugar"
+  },
+  {
+   "tag": "SECTION",
+   "y": 4085,
+   "h": 447,
+   "bg": "rgb(249, 250, 251)",
+   "t": "Descubre el País Vasco con nuestro taxi"
+  },
+  {
+   "tag": "SECTION",
+   "y": 4532,
+   "h": 717,
+   "bg": "rgb(255, 255, 255)",
+   "t": "Lo que dicen nuestros clientes"
+  },
+  {
+   "tag": "SECTION",
+   "y": 5248,
+   "h": 758,
+   "bg": "rgb(255, 255, 255)",
+   "t": "Algoritmo de Optimización de Rutas"
+  },
+  {
+   "tag": "SECTION",
+   "y": 6006,
+   "h": 899,
+   "bg": "rgb(249, 250, 251)",
+   "t": "Taxi Tradicional vs. Nuestra Multiparada Inteligente"
+  },
+  {
+   "tag": "SECTION",
+   "y": 6905,
+   "h": 300,
+   "bg": "rgb(19, 127, 236)",
+   "t": "¿Por qué elegir Taxi Bilbao Aeropuerto?"
+  },
+  {
+   "tag": "SECTION",
+   "y": 7205,
+   "h": 636,
+   "bg": "rgb(249, 250, 251)",
+   "t": "La flota más avanzada de Bilbao"
+  },
+  {
+   "tag": "SECTION",
+   "y": 7841,
+   "h": 792,
+   "bg": "rgb(255, 255, 255)",
+   "t": "Confort en cada trayecto"
+  },
+  {
+   "tag": "SECTION",
+   "y": 8633,
+   "h": 568,
+   "bg": "rgb(255, 255, 255)",
+   "t": "Taxi en Bilbao para cualquier destino"
+  },
+  {
+   "tag": "SECTION",
+   "y": 9201,
+   "h": 1258,
+   "bg": "rgb(249, 250, 251)",
+   "t": "Preguntas frecuentes"
+  },
+  {
+   "tag": "FOOTER",
+   "y": 10459,
+   "h": 414,
+   "bg": "rgb(17, 20, 24)",
+   "t": ""
+  }
+ ],
+ "h1": {
+  "ff": "Manrope, sans-serif",
+  "fs": "72px",
+  "fw": "800",
+  "col": "rgb(255, 255, 255)"
+ },
+ "h2": {
+  "ff": "Manrope, sans-serif",
+  "fs": "20px",
+  "fw": "700",
+  "col": "rgb(17, 20, 24)"
+ },
+ "body": {
+  "ff": "Manrope, sans-serif",
+  "fs": "16px",
+  "fw": "400",
+  "col": "rgb(17, 20, 24)"
+ },
+ "forms": [
+  {
+   "t": "BUTTON",
+   "type": "submit",
+   "name": "mobileMenuBtn",
+   "ph": "\n                menu\n        "
+  },
+  {
+   "t": "BUTTON",
+   "type": "submit",
+   "name": "mobileMenuClose",
+   "ph": "\n            close\n        "
+  },
+  {
+   "t": "BUTTON",
+   "type": "button",
+   "name": "btn-to-mobile",
+   "ph": "\n                             "
+  },
+  {
+   "t": "BUTTON",
+   "type": "button",
+   "name": "btn-from-mobile",
+   "ph": "\n                             "
+  },
+  {
+   "t": "BUTTON",
+   "type": "button",
+   "name": "btn-other-mobile",
+   "ph": "\n                             "
+  },
+  {
+   "t": "INPUT",
+   "type": "text",
+   "name": "pickup",
+   "ph": "Calle, número o portal en Bilbao"
+  },
+  {
+   "t": "BUTTON",
+   "type": "button",
+   "name": "add-stop-btn-mobile",
+   "ph": "\n                             "
+  },
+  {
+   "t": "INPUT",
+   "type": "text",
+   "name": "destination",
+   "ph": ""
+  },
+  {
+   "t": "INPUT",
+   "type": "datetime-local",
+   "name": "date_time",
+   "ph": ""
+  },
+  {
+   "t": "BUTTON",
+   "type": "button",
+   "name": "passengers-minus-mobile",
+   "ph": "\n                             "
+  },
+  {
+   "t": "BUTTON",
+   "type": "button",
+   "name": "passengers-plus-mobile",
+   "ph": "\n                             "
+  },
+  {
+   "t": "INPUT",
+   "type": "hidden",
+   "name": "passengers",
+   "ph": ""
+  },
+  {
+   "t": "INPUT",
+   "type": "hidden",
+   "name": "trip_direction",
+   "ph": ""
+  },
+  {
+   "t": "BUTTON",
+   "type": "submit",
+   "name": "",
+   "ph": "\n                             "
+  },
+  {
+   "t": "BUTTON",
+   "type": "button",
+   "name": "btn-to",
+   "ph": "flight_takeoff HACIA EL AEROPU"
+  },
+  {
+   "t": "BUTTON",
+   "type": "button",
+   "name": "btn-from",
+   "ph": "flight_land DESDE EL AEROPUERT"
+  },
+  {
+   "t": "BUTTON",
+   "type": "button",
+   "name": "btn-other",
+   "ph": "swap_horiz OTRO TRAYECTO"
+  },
+  {
+   "t": "INPUT",
+   "type": "text",
+   "name": "pickup",
+   "ph": "Calle, número o portal en Bilbao"
+  },
+  {
+   "t": "BUTTON",
+   "type": "button",
+   "name": "add-stop-btn",
+   "ph": "add\nAÑADIR PARADA INTELIGENTE\n"
+  },
+  {
+   "t": "INPUT",
+   "type": "text",
+   "name": "destination",
+   "ph": ""
+  },
+  {
+   "t": "INPUT",
+   "type": "datetime-local",
+   "name": "date_time",
+   "ph": ""
+  },
+  {
+   "t": "BUTTON",
+   "type": "button",
+   "name": "passengers-minus",
+   "ph": "remove_circle"
+  },
+  {
+   "t": "BUTTON",
+   "type": "button",
+   "name": "passengers-plus",
+   "ph": "add_circle"
+  },
+  {
+   "t": "INPUT",
+   "type": "hidden",
+   "name": "passengers",
+   "ph": ""
+  },
+  {
+   "t": "INPUT",
+   "type": "hidden",
+   "name": "trip_direction",
+   "ph": ""
+  },
+  {
+   "t": "BUTTON",
+   "type": "submit",
+   "name": "",
+   "ph": "CALCULAR PRECIO FINAL\ntrending"
+  },
+  {
+   "t": "BUTTON",
+   "type": "submit",
+   "name": "",
+   "ph": "edit\nModificar"
+  },
+  {
+   "t": "BUTTON",
+   "type": "submit",
+   "name": "",
+   "ph": "cancel\nCancelar gratis"
+  },
+  {
+   "t": "BUTTON",
+   "type": "submit",
+   "name": "carousel-prev-es",
+   "ph": "chevron_left"
+  },
+  {
+   "t": "BUTTON",
+   "type": "submit",
+   "name": "carousel-next-es",
+   "ph": "chevron_right"
+  }
+ ],
+ "docH": 10873
+}
